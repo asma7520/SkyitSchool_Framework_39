@@ -54,6 +54,9 @@ public class InvalidLoginFuctionality_usingExcel extends Base {
 		String actualErrMsg =  getElementText(By.id("error-msg"));
 		assertEquals(errorMsg , actualErrMsg);
 
+		System.out.println("Import new project");
+
+
 	}
 
 }
